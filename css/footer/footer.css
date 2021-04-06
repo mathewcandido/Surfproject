@@ -1,0 +1,15 @@
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    padding: 30px 3%;   
+    color:#fff;
+    background: #1188EE;
+    display: flex;
+    justify-content: space-between;
+
+}
+footer > img{
+    color: #fff;
+
+}

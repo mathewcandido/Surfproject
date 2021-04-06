@@ -1,0 +1,175 @@
+.boxpg2{
+    margin: 0 auto;
+    width:50%;
+    max-width: 600px;
+    height: 100%;
+    max-height: 1000px;
+   
+    border-radius: 5px;
+}
+
+
+.wave{
+    background-image: url(/image/ondas.png);
+    width: 200px;
+    height: 66.80px;
+    margin: 0 auto;
+    position: relative;
+    top:-30px;
+    
+}
+
+.boxpg2 .centralcard  h1{
+    margin-top:10px;
+    color:#384149;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.centralcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin:30px auto 20px auto;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    height: 100%;
+    
+}
+
+
+ .imgsurf{
+    background-image: url(/image/surfbot-icon.png) ;
+    width: 21px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top:-20px;
+    background-repeat: no-repeat;
+}
+.card3{
+    width: 100%;
+    max-Width :350px;
+    Height:340px;    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
+    border-radius: 5px;
+ 
+}
+
+
+.card1,.card2{
+    width: 100%;
+    max-Width :350px;
+    Height:340px;    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
+    border-radius: 5px;
+    margin-bottom: 10px;
+       
+
+}
+
+.surf1{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25px;
+    background-repeat: no-repeat;
+
+}
+.surf3{    
+
+        display:flex;  
+        position: relative;
+        left: 45%;
+        transform: translateX(-50%);
+        top:25px;
+        background-repeat: no-repeat;
+    }
+
+.surf2{
+
+    display:flex;  
+    position: relative;
+    left: 48%;
+    transform: translateX(-50%);
+    top:25px;
+    background-repeat: no-repeat;
+}
+
+.card1 > h1,.card2 > h1 , .card3 > h1{
+
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: 'Poppins', sans-serif;
+ 
+} 
+
+.listacard{
+    margin-top:15px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+    width:70%;
+    text-align: center;
+    height: 110px;
+    background-color: rgb(247, 255, 252);
+
+  
+
+}
+.listacard  li::before{
+    content: '';
+    box-sizing: border-box;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #FF3726;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+
+
+.listacard > ul > li {
+    list-style:none;
+    font-style :normal;
+    font-Size :14px;
+    Line-height :35px;
+    list-style-position: inside;
+    color:rgb(80, 92, 92);
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+}
+
+.preco {
+    font-family: 'Poppins', sans-serif;
+    margin: 35px 0 0 0;
+    font-size: 20px;
+    
+}
+
+button{
+    margin-top: 25px;
+    padding: 10px 40px;
+    font-size: 20px;
+    color:#FFFFFF;    
+    background: #4b7aa8;
+    border-radius: 5px;
+}
+
+button > img {
+
+    margin-left: 10px;
+}

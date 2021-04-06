@@ -1,0 +1,77 @@
+
+/*barra de aviso menu*/
+header .infheader:hover{
+    background: #ce0e18;
+    transition: 0.5s ease-in; 
+    
+}
+/* botão aulas*/
+
+button:hover{
+    background: #eb0a0a;
+    transition: 0.5s ease-in;
+}
+
+/**menu*/
+
+.menu > ul > li > a:hover{
+    color: rgb(65, 215, 253);
+}
+
+.menu > ul > li > .a::after{
+  content: "";
+  width: 100%;
+  max-width: 52px;
+  height: 2px;
+  background-color: rgb(9, 198, 255);
+  position: absolute;
+  left: 65.5%;
+  top: 75px;
+  transform: scaleX(0);
+  transition: transform 0.4s;
+  /*progres animation
+  width:0;
+  transition:width 0.2s;
+  */
+}
+.menu > ul > li > .b::after{
+    content: "";
+    width: 100%;
+    max-width: 60px;
+    height: 2px;
+    background-color: rgb(9, 198, 255);
+    position: absolute;
+    left: 71.5%;
+    top: 75px;
+    transform: scaleX(0);
+    transition: transform 0.4s;
+    /*progres animation
+    width:0;
+    transition:width 0.2s;
+    */
+  }
+
+  .menu > ul > li > .c::after{
+    content: "";
+    width: 100%;
+    max-width: 75px;
+    height: 2px;
+    background-color: rgb(9, 198, 255);
+    position: absolute;
+    left: 78.5%;
+    top: 75px;
+    transform: scaleX(0);
+    transition: transform 0.4s;
+    /*progres animation
+    width:0;
+    transition:width 0.2s;
+    */
+  }
+
+  
+.menu > ul > li > a:hover::after{
+  transform: scaleX(1);
+}
+/*progres animation
+width:100%
+ */

@@ -1,0 +1,58 @@
+.barmenu{
+    margin: 0 auto;
+    width: 100%;
+    height: 60px;
+    background: #17222D;
+    position: fixed;
+    z-index: 999;
+}
+
+.barmenu .logo img {
+   
+    position: relative;
+    width: 151.8px;
+    height: 37.25px;
+    left: 80px;
+    top: 10px;
+    color:white;
+}
+
+header .menu {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    top: -20px;
+}
+header .menu > ul {
+    
+    display: flex;
+    justify-content: flex-start;
+     margin-right: 30px;
+       
+   
+}
+ .menu > ul > li{
+
+    margin: 0 20px;
+    list-style-type: circle;
+    color: white;
+    
+}
+ .menu > ul > li > a{
+    font-size: 18px;
+    color: whitesmoke;
+   text-decoration: none;
+   font-family: 'Poppins', sans-serif;
+
+}
+header .menu ul li:nth-child(1){
+    list-style-type: none;
+    
+}
+
+.menu > ul > li > a:hover{
+    color: rgb(65, 215, 253);
+}
+

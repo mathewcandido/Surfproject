@@ -1,0 +1,87 @@
+.box2{
+   
+    width:50%;    
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 30px;
+    
+}
+
+.chamadabox2 > h1{
+   
+   
+    width:100%;
+    max-width: 550px;
+    font-size: 70px;
+    height: 260px;
+    font-family: 'Poppins', sans-serif;
+   
+   
+
+}
+
+.alinhaicons{
+   
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width:100%;
+    max-width:500px;
+
+    height:300px;
+    padding-left: 30px;
+}
+
+.sandalha,.coco,.boia{
+    width: 454px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+  
+
+
+}
+.imgsand{
+    background-image: url(/image//sandalhas.png);
+    width: 50.35px;
+    height: 52.27px;
+   
+}
+ 
+.textsand,.textcoco,.textboia{  
+    padding: 15px 20px  ;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.imgcoco{
+    width: 55px;
+    height: 63px;
+    background-image: url(/image/coco.png);
+
+}
+
+.imgboia{
+    width: 60px;
+    height: 61.40px;
+    background-image: url(/image/boia.png);
+
+}
+
+
+.box2text{
+    width:100%;
+    max-width: 400px;
+    height: 70%;
+    margin-top: 100px;
+   
+    text-align: justify;
+   
+
+}
+.box2text > p {
+    font-size: 16px; 
+    font-family: 'Poppins', sans-serif;
+}

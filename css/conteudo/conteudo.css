@@ -1,0 +1,24 @@
+
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    background: #fafcff;
+    align-items: center;
+
+}
+.boxcentral{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:100%;
+    height:1200px;
+    margin-top: 30px;
+
+    
+}
+
+
+
+

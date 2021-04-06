@@ -1,0 +1,354 @@
+
+@media screen and (max-width:1356px){
+    .menu > ul > li ::after{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1100px){
+   
+    .box2{
+   
+        width:60%;    
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        padding-top: 30px;
+        
+    }
+    .box1{
+        width:40%;
+        height: 100%;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .imgbox1{
+       
+        max-width: 550px;
+        height: 800px;
+        background-repeat: no-repeat;
+        margin-left: 10px;
+        
+    
+    }
+    .imgbox1 > .imgmap   {
+        display: none;
+    }
+    
+    .boxcentral{
+    
+        height:auto;
+       
+      
+    }
+
+    
+    .chamadabox2 > h1{
+   
+        width:100%;
+        font-size: 50px;
+        max-width: 350px;
+    
+        height: auto;
+        font-family: 'Poppins', sans-serif;
+       
+       
+    
+    }
+    .alinhaicons{
+   
+        display: flex;
+        height: auto;
+        width: 40%;
+        justify-content: space-between;
+        flex-direction: column;
+        height:auto;
+        padding-left: 0;
+        
+
+    }
+
+    .box2text{
+        width:50%;
+        max-width: 400px;
+        height: 50%;
+        margin-top: 40px;
+        text-align: justify;
+       
+    
+    }
+    .box2text p{
+        font-size: 14px;
+    }
+    .listabox1{
+        display:flex;
+        justify-content: left;
+        margin-top: 0;
+        margin-right: 0;
+    
+    }
+
+
+    .imgback{
+        display: none;
+       
+    }
+
+    .aulas {
+        width: 100%;
+        height:auto;
+        
+    }
+    .centralcard{
+        
+        max-width: 1000px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card1,.card2,.card3{
+        margin-bottom: 20px;
+     
+    }
+    .propaganda{
+        width: 100%;
+        max-width: 550px;
+        height: 90px;
+     
+    }
+
+    .contato{
+   
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+        flex-direction: column;
+        margin-top: 20px;
+        height:500px;
+        min-width: 900px;
+        align-items: center;
+        height: auto;
+    }
+    
+    .contatobox1{
+
+        width:100%;
+        height:auto;
+        margin: 0 auto;
+    
+    }
+    .contatobox2{
+
+        width:100%;
+        height:auto;
+        justify-content:center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:900px){
+
+    header .menu {
+
+        display: none;
+     
+    }
+
+
+    .banner .imgbanner .chamada{   
+   
+        display: flex;
+        justify-content: center;
+        flex-direction:column;
+        
+    }
+
+    .conteudo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:100%;
+        background: #fafcff;
+        align-items: center;
+    
+    }
+    .boxcentral{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        width:100%;
+        height:auto;
+        
+    }
+    .box1{
+        width:100%;
+        height: auto;
+       
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .box2{
+   
+        width:100%;    
+        height: auto;
+        display: flex;
+        flex-direction:column;
+        align-items: center;   
+        
+    }
+    
+    .alinhaicons{
+   
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        max-width:400px;
+        height:300px;
+        padding-left: 50px;
+    }
+    .box2text{
+        width:100%;
+        max-width: 400px;
+        height: auto;
+        margin: 10px 0 50px 0;
+       
+        text-align: justify;
+       
+    
+    }
+
+    .contato{
+   
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width:100%;
+        margin-top: 20px;
+        height:auto;
+        min-width: 500px;
+    }
+    .contatobox1{
+
+        width:100%;
+        height:auto;
+        max-width: 500px;
+        margin: 0 auto;
+    
+    }
+    .contatobox2{
+    
+        width:100%;
+        height:auto;
+        max-width: 500px;
+        margin:0 auto;
+      
+
+}
+
+.chamadabanner > h1 {
+  
+
+    max-width: 500px;
+    height: auto;
+   
+
+}
+
+
+
+
+
+
+}
+
+@media screen and (max-width:600px){
+
+    .alinhaicons{
+   
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        max-width:300px;
+        height:300px;
+        padding-left: 30px;
+    }
+
+    .contato{
+   
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width:100%;
+        margin-top: 20px;
+        height:auto;
+        min-width: 400px;
+    }
+    .contatobox1{
+
+        width:100%;
+        height:auto;
+        max-width: 500px;
+        margin: 0 auto;
+    
+    }
+    .contatobox2{
+    
+        width:100%;
+        height:auto;
+        max-width: 500px;
+        margin:0 auto;
+      
+
+}
+
+
+.chamadabanner > h1 {
+  
+    font-size: 50px;
+    max-width: 500px;
+    height: auto;
+   
+
+}
+
+.imgbox1{
+    background-image: url(/image/abigail-lynn-316133\ \(1\).png);
+    width: 100%;
+    max-width: 450px;
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-left: none;
+    
+
+}
+.chamadabanner > P{
+    padding-top: 50px;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+
+
+}

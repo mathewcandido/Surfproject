@@ -1,0 +1,180 @@
+.aulas {
+    width: 100%;
+    height: 900px;
+    background: #EFF4F9;
+    margin: 0 auto;
+}
+
+
+.wave{
+    background-image: url(/image/ondas.png);
+    width: 200px;
+    height: 66.80px;
+    margin: 0 auto;
+    position: relative;
+    top:-30px;
+    
+}
+.aulas > h1{
+    margin-top:20px;
+    color:#384149;
+    text-align: center;
+    font-family: Alice;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+}
+
+.centralcard{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    
+}
+
+
+ .imgsurf{
+    background-image: url(/image/surfbot-icon.png) ;
+    width: 21px;
+    height: 50px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top:-20px;
+    background-repeat: no-repeat;
+}
+.card3{
+    width: 100%;
+    max-Width :370px;
+    Height:440px;    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
+    border-radius: 5px;
+ 
+}
+
+
+.card1,.card2{
+    width: 100%;
+    max-Width :370px;
+    Height:440px;    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
+    border-radius: 5px;
+       
+
+}
+
+.surf1{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top:-2px;
+    background-repeat: no-repeat;
+
+}
+.surf3,.surf2{
+
+    display:flex;  
+    position: relative;
+    left: 45%;
+    transform: translateX(-50%);
+    top:-2px;
+    background-repeat: no-repeat;
+}
+
+.card1 > h1,.card2 > h1 , .card3 > h1{
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    font-family: 'Poppins', sans-serif;
+ 
+} 
+
+.listacard{
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+    width:70%;
+    text-align: center;
+    height: 150px;
+    background-color: rgb(247, 255, 252);
+
+  
+
+}
+.listacard  li::before{
+    content: '';
+    box-sizing: border-box;
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #FF3726;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 1px;
+}
+
+
+.listacard > ul > li {
+    list-style:none;
+    font-style :normal;
+    font-Size :14px;
+    Line-height :30px;
+    list-style-position: inside;
+    color:rgb(80, 92, 92);
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    width: 300px;
+}
+
+.preco {
+
+    margin-top: 15px;
+    font-size: 20px;
+    
+}
+
+button > a {
+    text-decoration: none;
+    font-size: 20px;
+    color:#FFFFFF;    
+}
+button{
+    margin-top: 25px;
+    padding: 10px 40px;
+    
+    
+    background: #4b7aa8;
+    border-radius: 5px;
+}
+
+button > img {
+
+    margin-left: 10px;
+}
+
+
+.propaganda{
+    
+    width: 550px;
+    height: 59px;
+ 
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;   
+    font-size: 15px;
+}
+
+
