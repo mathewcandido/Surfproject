@@ -10,25 +10,31 @@
 }
 
 .imgbox1{
-    background-image: url(/image/abigail-lynn-316133\ \(1\).png);
+    background-image: url(/image/prachassurf.jpg);
     width: 100%;
-    max-width: 750px;
-    height: 800px;
-    background-repeat: no-repeat;
-    margin-left: 220px;
-    
+    max-width: 600px;
+    height: 100%;
+    max-height: 700px;
+    margin-left: 50px;
+  
+    border-radius: 3%;
+  
 
 }
-.imgbox1 > .imgmap   {
-    /*background-image: url(/image/Captura\ de\ Tela\ 2017-10-25\ às\ 21.01.jpg);*/
+.imgbox1 > .imgmap img   {
+   
     width:100%;
     max-width: 500px;
-    height: 300px;
+    height: 200px;
     position: relative;
     top:550px;
-    left:1.5%;
+    left:7%;
     background-repeat: no-repeat;
     cursor: pointer;
+    border-radius: 3%;
+   
+
+   
 }
 
 .listabox1{

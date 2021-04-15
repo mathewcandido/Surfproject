@@ -11,12 +11,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
 
 
-
+    
     <link rel="stylesheet" href="css/pagamento/pgheader.css">
     <link rel="stylesheet" href="css/footer/footer.css">
     <link rel="stylesheet" href="css/contato/contato.css">
     <link rel="stylesheet" href="css/animaçõescss/anima.css">
-    <link rel="stylesheet" href="css/chamadafrase/chamada.css"> 
+    <link rel="stylesheet" href="css/galeriawave/galeria.css"> 
       <link rel="stylesheet" href="css/aulas/central.css">  
       <link   rel="stylesheet" href="css/conteudo/box1.css">
       <link   rel="stylesheet" href="css/conteudo/box2.css">
@@ -28,6 +28,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
     <title>SurfAcademy</title>
+   
+    
+
 </head>
 <body>
     
@@ -63,7 +66,7 @@
                 <div class="imgbanner">
                
                         <div class="chamada">
-                                <div class="escolanome">
+                                <div  class="escolanome">
                                     <h1>Escola de Surf </h1>
                                 </div>
                                 <div class="Email">
@@ -107,7 +110,7 @@
                         
                     <div class="box2">
                         <div class="chamadabox2">
-                            <h1><strong>Aulas</strong>  em uma das melhores praias do <strong> Rio.</strong></h1>
+                            <h1 ><strong>Aulas</strong>  em uma das melhores praias do <strong> Rio.</strong></h1>
                         </div>
                         <div class="alinhaicons">
                         <div class="sandalha">
@@ -128,7 +131,7 @@
                                 
                             </div><!--alinhamentoicons-->
                                 <div class="box2text" >
-                                    <p>Como cidade capital, abriga na zona chamada Plateau,
+                                    <p id="p" >Como cidade capital, abriga na zona chamada Plateau,
                                          promontório à beira-mar, 
                                          edifícios públicos e outras construções de importância, 
                                          como o Palácio Presidencial, 
@@ -220,13 +223,26 @@
                 </div><!--propaganda-->
 
             </section>
-            <section class="chamadawave">
 
-                    <div class="chamadabanner">
-                            <h1>“O surf liberta as ondas de uma vida.” </h1>
-                           <p>Regis Pereira</p>
+            <section class="galeriawave">
 
+                    <div class="modal">
+                        <div class="modal-content">
+                            <img src="image/ALOHA.jpg" id="modal-img"> 
+                            <span id="btn-close">&times;</span>
+                        </div>
                     </div>
+                   
+                    <div id="slider" class="galeriarow">
+                           <img src="image/Surfer.jpg" class="small-img">
+                           <img src="image/ALOHA.jpg" class="small-img">
+                           <img src="image/sundown.jpg" class="small-img">
+                           <img src="image/Pinterest.jpg" class="small-img">
+                          
+                        
+                         
+                    </div>
+        
             </section>
            
            
@@ -300,7 +316,7 @@
             
         </footer>
 
-
+        <script src="js/function.js"></script>
 
 
 </body>

@@ -153,9 +153,7 @@ button > a {
 }
 button{
     margin-top: 25px;
-    padding: 10px 40px;
-    
-    
+    padding: 10px 40px;  
     background: #4b7aa8;
     border-radius: 5px;
 }
@@ -176,5 +174,4 @@ button > img {
     margin-right: auto;   
     font-size: 15px;
 }
-
 

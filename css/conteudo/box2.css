@@ -51,7 +51,7 @@
 }
  
 .textsand,.textcoco,.textboia{  
-    padding: 15px 20px  ;
+    padding: 20px 20px  ;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -75,7 +75,7 @@
     width:100%;
     max-width: 400px;
     height: 70%;
-    margin-top: 100px;
+    margin-top: 80px;
    
     text-align: justify;
    
@@ -84,4 +84,21 @@
 .box2text > p {
     font-size: 16px; 
     font-family: 'Poppins', sans-serif;
+}
+.box2text > p::after{
+    content: "|";
+    margin-left: 2px;
+    opacity: 0;
+    animation: pisca .7s infinite ;
+
+
+}
+
+@keyframes pisca {
+    0%,100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
 }
