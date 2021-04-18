@@ -15,12 +15,11 @@ function typeWriter(elemento) {
     });
 
 }
-const titulo = document.getElementById('p')
-typeWriter(titulo)
+const titulo = document.getElementById('p');
+typeWriter(titulo);
 
 
 //modal
-
 
 let imagens = document.querySelectorAll('.small-img');
 let modal = document.querySelector('.modal');
@@ -30,12 +29,12 @@ let srcVal = "";
 
 for (let i = 0; i < imagens.length; i++) {
     imagens[i].addEventListener('click', function () {
-        srcVal = imagens[i].getAttribute('src')
+        srcVal = imagens[i].getAttribute('src');
         modalimg.setAttribute('src', srcVal);
-        modal.classList.toggle('modal-active')
+        modal.classList.toggle('modal-active');
 });
 }
 
 btn.addEventListener('click', function () {
-    modal.classList.toggle('modal-active')
+    modal.classList.toggle('modal-active');
 })
