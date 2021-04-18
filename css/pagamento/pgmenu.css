@@ -5,6 +5,8 @@
     background: #17222D;
     position: fixed;
     z-index: 999;
+    max-width: 1350px;
+    
 }
 
 .barmenu .logo img {

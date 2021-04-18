@@ -16,7 +16,8 @@ html,body{
 
 header,main,footer{
     width: 100%;
-    max-width: 1366px;
+    max-width: 1350px;
+    margin:0 auto;
     
 }
 strong{
