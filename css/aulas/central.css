@@ -1,6 +1,6 @@
 .aulas {
     width: 100%;
-    height: 900px;
+    height: 56.25rem;
     background: #EFF4F9;
     margin: 0 auto;
 }
@@ -8,21 +8,21 @@
 
 .wave{
     background-image: url(/image/ondas.png);
-    width: 200px;
-    height: 66.80px;
+    width: 12.5rem;
+    height: 4.175rem;
     margin: 0 auto;
     position: relative;
-    top:-30px;
+    top:-1.875rem;
     
 }
 .aulas > h1{
-    margin-top:20px;
+    margin-top:1.25rem;
     color:#384149;
     text-align: center;
     font-family: Alice;
     font-style: normal;
     font-weight: normal;
-    font-size: 72px;
+    font-size: 4.5rem;
 }
 
 .centralcard{
@@ -32,9 +32,9 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80px;
+    margin-top: 5rem;
     width: 100%;
-    max-width: 1200px;
+    max-width: 75rem;
     text-align: center;
     
 }
@@ -42,32 +42,32 @@
 
  .imgsurf{
     background-image: url(/image/surfbot-icon.png) ;
-    width: 21px;
-    height: 50px;
+    width: 2rem;
+    height: 3rem;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top:-20px;
+    top:-1.2rem;
     background-repeat: no-repeat;
 }
 .card3{
     width: 100%;
-    max-Width :370px;
-    Height:440px;    
+    max-Width :22rem;
+    Height:27.5rem;    
     background: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
-    border-radius: 5px;
+    border-radius: 8px;
  
 }
 
 
 .card1,.card2{
     width: 100%;
-    max-Width :370px;
-    Height:440px;    
+    max-Width :22rem;
+    Height:27.5rem;    
     background: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
-    border-radius: 5px;
+    border-radius: 8px;
        
 
 }
@@ -95,20 +95,20 @@
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-family: 'Poppins', sans-serif;
  
 } 
 
 .listacard{
-    margin-top:20px;
+    margin-top:1.20rem;
     margin-left: auto;
     margin-right: auto;
     justify-content:center;
     width:70%;
     text-align: center;
-    height: 150px;
+    height: 9.375rem;
     background-color: rgb(247, 255, 252);
 
   
@@ -131,12 +131,12 @@
     list-style:none;
     font-style :normal;
     font-Size :14px;
-    Line-height :30px;
+    Line-height :1.875rem;
     list-style-position: inside;
     color:rgb(80, 92, 92);
     text-align: left;
     font-family: 'Poppins', sans-serif;
-    width: 300px;
+    width: 16.75rem;
 }
 
 .preco {
@@ -148,11 +148,11 @@
 
 button > a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.25rem;
     color:#FFFFFF;    
 }
 button{
-    margin-top: 25px;
+    margin-top: 1.5625rem;
     padding: 10px 40px;  
     background: #4b7aa8;
     border-radius: 5px;
@@ -166,10 +166,10 @@ button > img {
 
 .propaganda{
     
-    width: 550px;
-    height: 59px;
+    width: 34.375rem;
+    height: 3.6875rem;
  
-    margin-top: 80px;
+    margin-top: 5rem;
     margin-left: auto;
     margin-right: auto;   
     font-size: 15px;

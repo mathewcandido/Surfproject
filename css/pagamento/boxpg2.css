@@ -1,10 +1,9 @@
 .boxpg2{
     margin: 0 auto;
     width:50%;
-    max-width: 600px;
+    max-width: 42.18rem;
     height: 100%;
-    max-height: 1000px;
-   
+    max-height: 62.5rem;
     border-radius: 5px;
 }
 
@@ -12,10 +11,10 @@
 .wave{
     background-image: url(/image/ondas.png);
     width: 200px;
-    height: 66.80px;
+    height: 4.18rem;
     margin: 0 auto;
     position: relative;
-    top:-30px;
+    top: -1.875rem;
     
 }
 
@@ -25,7 +24,7 @@
     text-align: center;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .centralcard{
@@ -36,7 +35,7 @@
     align-items: center;
     margin:30px auto 20px auto;
     width: 100%;
-    max-width: 600px;
+    max-width: 37.5rem;
     text-align: center;
     height: 100%;
     
@@ -45,18 +44,18 @@
 
  .imgsurf{
     background-image: url(/image/surfbot-icon.png) ;
-    width: 21px;
-    height: 50px;
+    width: 1.3125rem;
+    height: 3.125rem;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top:-20px;
+    top: -1.25rem;
     background-repeat: no-repeat;
 }
 .card3{
     width: 100%;
-    max-Width :350px;
-    Height:340px;    
+    max-Width :21.875rem;
+    Height:21.25rem;    
     background: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
     border-radius: 5px;
@@ -66,8 +65,8 @@
 
 .card1,.card2{
     width: 100%;
-    max-Width :350px;
-    Height:340px;    
+    max-Width :21.875rem;
+    Height:21.25rem;    
     background: #FFFFFF;
     box-shadow: 0px 5px 5px rgba(187, 204, 221, 0.4), 0px 10px 10px rgba(187, 204, 221, 0.4);
     border-radius: 5px;
@@ -90,7 +89,7 @@
         position: relative;
         left: 45%;
         transform: translateX(-50%);
-        top:25px;
+        top:1.56rem;
         background-repeat: no-repeat;
     }
 
@@ -109,8 +108,8 @@
 
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-family: 'Poppins', sans-serif;
  
 } 
@@ -122,7 +121,7 @@
     justify-content:center;
     width:70%;
     text-align: center;
-    height: 110px;
+    height: 6.875rem;
     background-color: rgb(247, 255, 252);
 
   
@@ -145,25 +144,25 @@
     list-style:none;
     font-style :normal;
     font-Size :14px;
-    Line-height :35px;
+    Line-height :2.187rem;
     list-style-position: inside;
     color:rgb(80, 92, 92);
     text-align: left;
     font-family: 'Poppins', sans-serif;
-    width: 300px;
+    width: 18.75rem;
 }
 
 .preco {
     font-family: 'Poppins', sans-serif;
     margin: 35px 0 0 0;
-    font-size: 20px;
+    font-size: 1.25rem;
     
 }
 
 button{
-    margin-top: 25px;
+    margin-top: 1.5625rem;
     padding: 10px 40px;
-    font-size: 20px;
+    font-size: 1.25rem;
     color:#FFFFFF;    
     background: #4b7aa8;
     border-radius: 5px;

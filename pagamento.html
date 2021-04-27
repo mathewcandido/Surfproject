@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SurfAcademy</title>
 
-   
+    <link rel="stylesheet" href="css/pagamento/mediapg.css">
+    <link rel="stylesheet" href="css/footer/footer.css">
+    <link rel="stylesheet" href="css/pagamento/boxpg1.css">
     <link rel="stylesheet" href="css/central/bootstrap.css">
     <link rel="stylesheet" href="css/pagamento/boxpg2.css">
     <link rel="stylesheet" href="css/pagamento/centralbox.css">
@@ -42,7 +44,8 @@
 
            <section class="chamadamatricule">
 
-                <h1>Matricule-se</h1>
+                <h1>Matricule-se 
+                </h1>
 
            </section> 
 
@@ -84,6 +87,7 @@
                               </select>
                             </div>
                       </div><!--selectclass-->
+                   
                       <div class="select">
                         <div class="col-md-6">
                             <label for="inputCity" class="form-label">Cep:</label>
@@ -98,67 +102,69 @@
                           </div>
                          
                         </div><!--selectclass-->
-                          <span>Forma de Pagamento</span>
+                        
+                        <span>Forma de Pagamento</span>
                         
                           <div class="modalidade">
                          
                             <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                              <option selected>Formas de Pagamento</option>
-                              <option value="1">CRÉDITO</option>
-                              <option value="2">DÉBITO</option>
+                              <option ></option>
+                              <option value="1">Crédito</option>
+                              <option value="2">Débito</option>
                              
                             </select>       
                         </div><!--Modalidade-->
                         
                        
                          <span>Modalidade</span>
-                        <div class="modalidade">
+                     
+                         <div class="modalidade">
                          
                           <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-                            <option selected>Modalidade</option>
+                           
+                            <option ></option>
                             <option value="1">Infantil</option>
                             <option value="2">Adulto</option>
                             <option value="3">Profissional</option>
                           </select>       
                       </div><!--Modalidade-->
-                        
-                        <div class="date">  
-                          <div class="col-md-6">
-                                <label for="inputCity" class="form-label">Nome do cartão:</label>
-                                <input type="text" class="form-control" id="inputCity">
-                              </div>
-                              <div class="col-md-4">
-                                <label for="inputState" class="form-label">Data de Expiração:</label>
-                                <input type="date" class="form-control" id="inputState">
-                              </div>
+                      
+                      
               
-                            </div><!--"date--> 
                            
-                            <div class="date">  
-                              <div class="col-md-6">
-                                    <label for="inputCity" class="form-label">Número do cartão:</label>
-                                    <input type="text" class="form-control" id="inputCity" placeholder="XXX">
-                                  </div>
-                                  <div class="col-md-4">
-                                    <label for="inputState" class="form-label">Código de segurança:</label>
-                                    <input type="text" class="form-control" id="inputState" placeholder="XXX">
-                                  </div>
-                  
-                                </div><!--"date--> 
-                     
+                            <div class="date">
+                              <div class="row">
+                                <div class="col">
+                                  <label for="nomedocartao">Nome do cartão:</label>
+                                  <input type="text" class="form-control" placeholder="Ex:Renato C A Nunes" aria-label="First name">
+                                </div>
+                                <div class="col">
+                                  <label for="nomedocartao">Data de Expiração:</label>
+                                  <input type="text" class="form-control" placeholder="Ex:Mês/Ano" aria-label="Last name">
+                                 
+                                </div>
+                              </div>
+                          
+                            </div>
+                            <div class="date">
+                              <div class="row">
+                                <div class="col">
+                                  <label for="nomedocartao">Número do cartão:</label>
+                                  <input type="text" class="form-control" placeholder="555 555 555 555" aria-label="First name">
+                                </div>
+                                <div class="col">
+                                  <label for="nomedocartao">Código de Segurança:</label>
+                                  <input type="text" class="form-control" placeholder="Ex:XXX" aria-label="Last name">
+                                 
+                                </div>
+                              </div>
+                          
+                            </div>
+
+                            
                                 <button type="button" class="btn btn-primary">Realizar Matricula</button>
                                 <p><img src="/image/cadeado.png">Informações Criptografadas</p>
                         </form>
-
-
-
-
-
-
-
-
-
-
 
                 </div><!--boxpg1-->
                            
@@ -241,7 +247,11 @@
 
     </main>
 
-
+    <footer>
+      <p>Surfbot 2019 alguns direitos reservado</p>
+      <img src="/image/surfbot-icon (1).png">
+      
+  </footer>
 
 
 </body>

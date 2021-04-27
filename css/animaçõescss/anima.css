@@ -21,12 +21,12 @@ button:hover{
 .menu > ul > li > .a::after{
   content: "";
   width: 100%;
-  max-width: 52px;
+  max-width: 3.25rem;
   height: 2px;
   background-color: rgb(9, 198, 255);
   position: absolute;
   left: 65.5%;
-  top: 75px;
+  top:4.6875rem;
   transform: scaleX(0);
   transition: transform 0.4s;
   /*progres animation
@@ -37,12 +37,12 @@ button:hover{
 .menu > ul > li > .b::after{
     content: "";
     width: 100%;
-    max-width: 60px;
+    max-width: 3.75rem;
     height: 2px;
     background-color: rgb(9, 198, 255);
     position: absolute;
     left: 71.5%;
-    top: 75px;
+    top: 4.6875rem;
     transform: scaleX(0);
     transition: transform 0.4s;
     /*progres animation
@@ -54,12 +54,12 @@ button:hover{
   .menu > ul > li > .c::after{
     content: "";
     width: 100%;
-    max-width: 75px;
+    max-width:4.6875rem ;
     height: 2px;
     background-color: rgb(9, 198, 255);
     position: absolute;
     left: 78.5%;
-    top: 75px;
+    top: 4.6875rem;
     transform: scaleX(0);
     transition: transform 0.4s;
     /*progres animation

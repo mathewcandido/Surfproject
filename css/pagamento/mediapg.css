@@ -1,0 +1,19 @@
+@media screen and (max-width:750px){
+
+
+    .boxpg1{
+  
+        justify-content: center;
+        width:100%;
+     
+        height: auto; 
+     
+    }
+
+    .boxpg2{
+       display: none;
+     
+     
+    }
+
+}

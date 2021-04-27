@@ -11,7 +11,7 @@ function typeWriter(elemento) {
         setTimeout(() => elemento.innerHTML += letra, 25 * i);
 
 
-        console.log(letra)
+    
     });
 
 }

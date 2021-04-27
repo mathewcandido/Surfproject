@@ -1,7 +1,7 @@
 .box1{
     width:50%;
     height: 100%;
-   
+    max-width:42.18rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,35 +12,30 @@
 .imgbox1{
     background-image: url(/image/prachassurf.jpg);
     width: 100%;
-    max-width: 600px;
+    max-width:37.5rem;
     height: 100%;
-    max-height: 700px;
-    margin-left: 50px;
-  
+    max-height: 43.75rem;
+    margin-left: 3.125rem;
     border-radius: 3%;
   
-
 }
 .imgbox1 > .imgmap img   {
    
     width:100%;
-    max-width: 500px;
-    height: 200px;
+    max-width: 31.25rem;
+    height: 12.5rem;
     position: relative;
-    top:550px;
+    top:34.375rem;
     left:7%;
     background-repeat: no-repeat;
     cursor: pointer;
     border-radius: 3%;
-   
-
-   
 }
 
 .listabox1{
     display:flex;
     justify-content: left;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     margin-right: 20%;
 
 }
@@ -50,12 +45,12 @@
 
 }
 .listabox1 > ul > li > h1{
-    font-size: 23px;
+    font-size: 1.437rem;
     margin: none;
 } 
 span{
     color:#6e7573;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .listabox1  li p ::before{
         

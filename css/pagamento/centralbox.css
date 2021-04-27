@@ -2,117 +2,20 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html,body{
+    background-color: #bbdeff;
+background-image: linear-gradient(32deg, #e1f0ff 0%, #ffffff 100%);
 
+
+}
 
 .centralpg{
 
     display: flex;
     width: 100%;
-    max-width: 1000px;
-    height: 1200px;
+    max-width: 66.5rem;
+    height: 70rem;
     margin: 40px auto 0 auto;
-    background-color: rgb(255, 252, 252);
-
-}
-.boxpg1 strong{
-    margin: 50px 0 0 0 ;
-    text-align: center;
-    color: #384149;
-}
-
-.boxpg1{
-  
-    justify-content: flex-start;
-    width:50%;
-    max-width: 500px;
-    height: 100%;
-   
-    box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
-    border-radius: 5px;
-}
-form .select{
-    display: flex;
-    width: 100%;
-    justify-content:space-between;
+    flex-wrap: wrap;
    
 }
-.boxpg1 form  option{
-    width:50%;
-    background: #EFF4F9;
-}
-
-
-
-.boxpg1 form input{
-  
-box-shadow: 0px 2px 2px rgba(187, 204, 221, 0.4);
-border-radius: 5px;
-}
-
-.boxpg1 form {
-        display: flex;
-        margin: 0 auto;
-    
-}
-
-
-
-.boxpg1 form .debicredi{
-    width:100%;
-    display: flex;
-    margin: 10px auto;
-    justify-content: space-between;
-    max-width: 300px; 
-    height: 50px;
-}
-
-
-
-.boxpg1 form .modalidade{
-    width:100%;
-    display: flex;
-    margin: 8px auto;
-    justify-content: space-between;
-    max-width: 500px; 
-    height: 60px;
-
-}
-.boxpg1 form .date{
-
-    display: flex;
-    width: 100%;
-    justify-content:space-between;
-    padding: 0 3%;
-    margin: 10px auto;
-
-
-}
-
-.boxpg1 button{
-
-    text-align: center;
-    width:200px;
-    margin: 60px auto 5px auto;
-
-}
-
-.boxpg1 p img{
-    margin: 0 5px ;
-}
-.boxpg1 p {
-    text-align: center;
-    font-family: Nunito;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 19px;
-    font-family: 'Poppins', sans-serif;
-    color: #445566;
-}
-
-
-
-
-
-
-

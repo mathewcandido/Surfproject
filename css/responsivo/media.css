@@ -7,9 +7,15 @@
 
 @media screen and (max-width:1100px){
    
+    .boxcentral{
+      
+        height:auto;
+      
+    }
+
     .box2{
    
-        width:60%;    
+        width:50%;    
         height: 100%;
         display: flex;
         flex-direction:column;
@@ -18,9 +24,8 @@
         
     }
     .box1{
-        width:40%;
+        width:50%;
         height: 100%;
-       
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -28,8 +33,8 @@
     
     }
     .imgbox1{
-       
-        max-width: 550px;
+        text-align: center;
+        max-width: 600px;
         height: 800px;
         background-repeat: no-repeat;
         margin-left: 10px;
@@ -51,39 +56,39 @@
     .chamadabox2 > h1{
    
         width:100%;
-        font-size: 50px;
-        max-width: 350px;
-    
+        font-size: 60px;
+        max-width: 300px;
         height: auto;
         font-family: 'Poppins', sans-serif;
-       
-       
+       margin-bottom: 5px;
     
     }
     .alinhaicons{
    
         display: flex;
         height: auto;
-        width: 40%;
+        width: 60%;
         justify-content: space-between;
         flex-direction: column;
         height:auto;
-        padding-left: 0;
+        padding-left:0;
         
 
     }
 
     .box2text{
-        width:50%;
-        max-width: 400px;
-        height: 50%;
+        width:95%;
+        max-width:400px;
+        height: 40%;
         margin-top: 40px;
         text-align: justify;
        
     
     }
     .box2text p{
+       
         font-size: 14px;
+        margin-bottom: 10px;
     }
     .listabox1{
         display:flex;
@@ -155,10 +160,8 @@
     }
 
 
-
-
-
 }
+
 
 @media screen and (max-width:900px){
 
@@ -167,7 +170,15 @@
         display: none;
      
     }
-
+    header .banner .imgbanner{
+    
+     
+        background-repeat:no-repeat;
+        background-size: 100% 100%;
+        object-fit:contain;
+        background-attachment: none;
+     
+    }
 
     .banner .imgbanner .chamada{   
    
@@ -182,9 +193,7 @@
         flex-wrap: wrap;
         justify-content: center;
         width:100%;
-        background: #fafcff;
-        align-items: center;
-    
+        
     }
     .boxcentral{
         display: flex;
@@ -198,11 +207,6 @@
     .box1{
         width:100%;
         height: auto;
-       
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     
     }
     .box2{
@@ -214,6 +218,23 @@
         align-items: center;   
         
     }
+
+
+
+
+    
+.chamadabox2 > h1{
+   
+   
+    width:100%;
+    max-width: 550px;
+    font-size: 70px;
+    height: 260px;
+    font-family: 'Poppins', sans-serif;
+   
+   
+
+}
     
     .alinhaicons{
    
@@ -273,16 +294,36 @@
    
 
 }
-
-
-
-
-
-
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
 
+    .modal{
+       display:none;
+    
+    }
+    .imgbox1{
+   
+    width: 100%;
+    max-width: 450px;
+    height: 500px;
+    margin-left: none;
+    
+
+}
+.chamadabanner > P{
+    padding-top: 50px;
+    font-size: 18px;
+    color: aliceblue;
+}
+.chamadabanner > h1 {
+  
+    font-size: 50px;
+    max-width: 500px;
+    height: auto;
+   
+}
+   
     .alinhaicons{
    
         display: flex;
@@ -294,22 +335,29 @@
         height:300px;
         padding-left: 30px;
     }
+    .propaganda{
+    
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-top: 5rem;
+        margin-left: auto;
+        margin-right: auto;   
+        font-size: 15px;
+    }
 
     .contato{
    
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
         width:100%;
-        margin-top: 20px;
+        margin-top: 20px auto;
         height:auto;
-        min-width: 400px;
+        min-width: 500px;
     }
     .contatobox1{
 
         width:100%;
         height:auto;
-        max-width: 500px;
+        max-width: 480px;
         margin: 0 auto;
     
     }
@@ -324,31 +372,10 @@
 }
 
 
-.chamadabanner > h1 {
-  
-    font-size: 50px;
-    max-width: 500px;
-    height: auto;
-   
-
-}
-
-.imgbox1{
-    background-image: url(/image/abigail-lynn-316133\ \(1\).png);
-    width: 100%;
-    max-width: 450px;
-    height: 500px;
-    background-repeat: no-repeat;
-    margin-left: none;
-    
-
-}
-.chamadabanner > P{
-    padding-top: 50px;
-    font-size: 18px;
-    color: aliceblue;
-}
-
 
 
 }
+
+
+
+

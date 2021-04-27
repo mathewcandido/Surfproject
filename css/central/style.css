@@ -7,6 +7,13 @@
     
 }
 
+
+:root{
+    --My-width:84.375rem;
+
+}
+
+
 html,body{
     height: 100%;
     scroll-behavior: smooth;
@@ -16,10 +23,11 @@ html,body{
 
 header,main,footer{
     width: 100%;
-    max-width: 1350px;
+    max-width:var(--My-width);
     margin:0 auto;
     
 }
+
 strong{
     color: #1188EE;
 }
@@ -27,13 +35,13 @@ p{
 
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 1.5rem;
+    line-height: 2.06rem;
 }
 h1{
     font-family: Alice;
     font-style: normal;
     font-weight: normal;
-    font-size: 72px;
-    line-height: 74px;
+    font-size: 4.5rem;
+    line-height: 4.625rem;
 }

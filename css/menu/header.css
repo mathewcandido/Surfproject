@@ -4,7 +4,7 @@
 
 header .infheader {   
     width: 100%;
-    height: 30px;
+    height: 1.875rem;
     background: #1188EE;
     text-align: left;
    
@@ -12,12 +12,12 @@ header .infheader {
 }
 header .infheader p{
     padding: 5px;
-    margin-left: 20px;
+    margin-left: 1.875rem;
     font-family: Nunito;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 19px;
+    line-height: 1.1875rem;
     color:white;
     }
 
@@ -38,7 +38,7 @@ header .infheader p{
 }
 header .banner .imgbanner{
     width: 100%;
-    height:450px;
+    height:28.125rem;
     background-image:url(/image/capasurf.jpg);
     background-repeat:no-repeat;
     background-size: 100% 100%;
@@ -60,7 +60,7 @@ header .banner .imgbanner{
     font-family: Alice;
     font-style: normal;
     font-weight: normal;
-    font-size: 72px;
+    font-size: 4.5rem;
    
     color: white;
 }
@@ -71,13 +71,13 @@ header .banner .imgbanner{
 
 }
 .banner .chamada input{
-    width: 300px;    
-    height: 48px;
+    width: 18.75rem;    
+    height: 3rem;
     font-size: 15px;
     padding-left: 10px;
     margin-left: 10px;
     background: #FFFFFF;
-    margin-top:20px;
+    margin-top:1.25rem;
     box-shadow: 0px 5px 5px rgba(23, 34, 45, 0.4);
     border-radius: 5px;
     cursor: pointer;
@@ -87,10 +87,10 @@ header .banner .imgbanner{
 
  .Email > button{
     background-color: red;
-    width: 180px;
+    width: 11.25rem;
     padding: 0;
-    margin-top:20px;
-    height: 50px;
+    margin-top:1.25rem;
+    height: 3.125rem;
     cursor: pointer;
 
     
