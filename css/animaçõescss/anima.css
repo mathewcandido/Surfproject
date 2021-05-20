@@ -7,25 +7,30 @@ header .infheader:hover{
 }
 /* botão aulas*/
 
-button:hover{
+.centralcard button:hover{
     background: #eb0a0a;
     transition: 0.5s ease-in;
 }
 
+.contato button:hover{
+  background: #eb0a0a;
+  transition: 0.5s ease-in;
+}
+
 /**menu*/
 
-.menu > ul > li > a:hover{
+nav > ul > li > a:hover{
     color: rgb(65, 215, 253);
 }
 
-.menu > ul > li > .a::after{
+nav > ul > li > .a::after{
   content: "";
   width: 100%;
   max-width: 3.25rem;
   height: 2px;
   background-color: rgb(9, 198, 255);
   position: absolute;
-  left: 65.5%;
+  left: 66.5%;
   top:4.6875rem;
   transform: scaleX(0);
   transition: transform 0.4s;
@@ -34,14 +39,14 @@ button:hover{
   transition:width 0.2s;
   */
 }
-.menu > ul > li > .b::after{
+nav > ul > li > .b::after{
     content: "";
     width: 100%;
     max-width: 3.75rem;
     height: 2px;
     background-color: rgb(9, 198, 255);
     position: absolute;
-    left: 71.5%;
+    left: 72.5%;
     top: 4.6875rem;
     transform: scaleX(0);
     transition: transform 0.4s;
@@ -51,14 +56,14 @@ button:hover{
     */
   }
 
-  .menu > ul > li > .c::after{
+  nav > ul > li > .c::after{
     content: "";
     width: 100%;
     max-width:4.6875rem ;
     height: 2px;
     background-color: rgb(9, 198, 255);
     position: absolute;
-    left: 78.5%;
+    left: 79.5%;
     top: 4.6875rem;
     transform: scaleX(0);
     transition: transform 0.4s;
@@ -69,7 +74,7 @@ button:hover{
   }
 
   
-.menu > ul > li > a:hover::after{
+nav > ul > li > a:hover::after{
   transform: scaleX(1);
 }
 /*progres animation

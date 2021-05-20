@@ -1,10 +1,21 @@
+
+.containposition{
+  
+    position: fixed;
+    z-index: 1000; 
+    width: 100%;
+    max-width: var(--My-width);
+}
 .barmenu{
     margin: 0 auto;
     width: 100%;
+    max-width: var(--My-width);
     height: 60px;
     background: #17222D;
     display: flex;
     justify-content: space-between;
+   
+   
 
 }
 .barmenu .menubar{
@@ -22,7 +33,7 @@
     color:white;
 }
 
-header .menu {
+header nav {
 
     display: flex;
     flex-direction: row;
@@ -30,29 +41,35 @@ header .menu {
    
  
 }
-header .menu > ul {
+header nav > ul {
     
     display: flex;
     justify-content: flex-start;
      margin-right: 30px;
    
 }
- .menu > ul > li{
+ nav > ul > li{
 
     margin: 0 20px;
     list-style-type: circle;
     color: white;
     
 }
- .menu > ul > li > a{
+ nav > ul > li > a{
     font-size: 20px;
     color: whitesmoke;
    text-decoration: none;
 
 }
-header .menu ul li:nth-child(1){
+header nav ul li:nth-child(1){
     list-style-type: none;
     
+}
+
+#btn-mobile{
+    display: none;
+    
+  
 }
 
 
